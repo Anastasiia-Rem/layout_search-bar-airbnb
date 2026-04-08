@@ -17,11 +17,19 @@ body {
   color: #3d4e61;
 }
 
+.search-form--big {
+  margin-top: 20px;
+}
+
+.search-form--small {
+  margin-top: 20px;
+}
+
 .search-form__input {
   background-image: url(images/Search.svg);
   background-repeat: no-repeat;
 
-  font-weight: inherit;
+  font-family: inherit;
   box-sizing: border-box;
   width: 100%;
   border-radius: 4px;
@@ -31,10 +39,8 @@ body {
 
 .search-form__input--big {
   background-size: 19px 19px;
-  background-position: 26px 25px;
+  background-position: 25px 24px;
 
-  margin-top: 20px;
-  margin-bottom: 20px;
   height: 70px;
   padding-left: 62px;
   font-size: 16px;
@@ -52,7 +58,7 @@ body {
 
 .search-form__input--small {
   background-size: 11px 11px;
-  background-position: 13px 15px;
+  background-position: 12px 14px;
 
   height: 42px;
   padding-left: 33px;
